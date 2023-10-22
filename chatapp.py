@@ -28,7 +28,7 @@ with st.sidebar:
 
 
 
-load_dotenv()
+os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 
 def main():
